@@ -1,5 +1,6 @@
+pipeline
 node{
-    stage ( "SCM checkout"){
-     git 'https://github.com/razzpothula/ansible.git'
-    }
+stage('SCM Checkout'){
+git url :'https://github.com/razzpothula/ansible.git
+}
 }
